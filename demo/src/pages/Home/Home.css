@@ -1,0 +1,102 @@
+.home{
+    background-color: white;
+}
+.home .pos {
+    position: absolute;
+    right: 0.3rem;
+    font-size: 0.4rem;
+}
+.home .content {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+}
+.middle{
+    border-bottom: 0.01rem solid #cccccc;
+    width: 100%;
+    height: 1.3rem;
+}
+.middle .left{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-left: 1.2rem;
+    border-right: 0.01rem solid #cccccc;
+}
+.middle .right{
+    float: left;
+    position: relative;
+    padding-left: 1.2rem;
+}
+.middle .around{
+    position: absolute;
+    font-size: 0.6rem;
+    left: 0.3rem;
+    top: 0.2rem;
+}
+.icon-zhoubian{
+    color: #29a6ff;
+}
+.icon-tiwen{
+    color: #f39716;
+}
+.middle p{
+    font-size: 0.2rem;
+    color: #cccccc;
+}
+.middle h3{
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+.home .logo{
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    margin-top: 0.3rem;
+}
+.home .icons{
+    text-align: center;
+}
+.home .icons img{
+    width: 80%;
+    margin-bottom: 0.1rem;
+}
+.home .icons p{
+    font-weight: bold;
+}
+.home .rank{
+    border-top: 0.01rem solid #cccccc;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 0.35rem;
+}
+.home .rank p{
+    position: absolute;
+    width: 2rem;
+    background-color: white;
+    text-align: center;
+    top: -0.25rem;
+    left: 2.3rem;
+}
+.home .teachers{
+    width: 48%;
+    margin-bottom: 0.3rem;
+    height: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+.home .system{
+    height: 70%;
+    width: 100%;
+    margin-bottom: 0.15rem;
+}
+.home .teacherImg{
+    height: 0.8rem;
+    width: 0.8rem;
+    position: absolute;
+    border: 0.03rem solid white;
+    border-radius: 1rem;
+    right: 0.3rem;
+    bottom: 0.05rem;
+}

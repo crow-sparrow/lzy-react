@@ -1,0 +1,128 @@
+.member {
+    height: 100vh;
+}
+
+.member .content {
+    margin-top: 0.2rem;
+    padding: 0.1rem 0;
+    margin-top: 0;
+}
+
+.member .nav {
+    background-color: #f5f5f5;
+    display: flex;
+    border-bottom: 0.01rem solid rgb(190, 190, 190);
+}
+
+.member .nav div {
+    width: 33%;
+    text-align: center;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-right: 0.01rem solid rgb(190, 190, 190);
+
+    position: relative;
+    font-size: 0.2rem;
+    color: #aaa9a4;
+}
+
+.member .nav .down {
+    font-size: 0.2rem;
+    position: absolute;
+    right: 0.2rem;
+}
+
+.member .memberDetail {
+    height: 2.5rem;
+    background-color: white;
+    margin-bottom: 0.1rem;
+    overflow: hidden;
+    border-bottom: 0.02rem solid #d0d0d0;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+
+.member .memberDetail .left {
+    float: left;
+}
+
+.member .memberDetail .right {
+    float: left;
+    margin-left: 0.25rem;
+    width: 73%;
+}
+
+.member .memberDetail .right p {
+    width: 100%;
+    margin-bottom: 0.07rem;
+}
+
+.member .memberDetail img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.member .memberDetail .right .name {
+    font-weight: bold;
+    font-size: 0.3rem;
+}
+
+.member .memberDetail .right .level {
+    height: 0.3rem;
+    padding: 0 0.2rem;
+    border: 0.02rem solid #90d64b;
+    border-radius: 0.3rem;
+    color: #90d64b;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+}
+
+.member .memberDetail .right .ex {
+    height: 0.3rem;
+    padding: 0 0.05rem;
+    border: 0.02rem solid #fec453;
+    border-radius: 0.3rem;
+    color: #fec453;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+}
+
+.member .memberDetail .right .price {
+    color: #ff7e27;
+    float: right;
+}
+
+.member .memberDetail .right .hour {
+    float: right;
+    color: #acacac;
+}
+.member .memberDetail .right .second{
+    color: #acacac;
+    font-size: 0.2rem;
+}
+.member .memberDetail .right .info{
+    color: #acacac;
+    font-size: 0.2rem;
+}
+.member .memberDetail .right .len{
+    color: #acacac;
+    text-align: right;
+}
+.member .memberDetail .right .second span {
+    padding: 0 0.1rem;  
+}
+.member .memberDetail .right .second span:nth-child(1){
+    padding-left: 0rem;
+}
+.member .like{
+    color: #acacac;
+    font-size: 0.2rem;
+    margin-left: 0.4rem;
+}
+.member .eye{
+    color: #acacac;
+    font-size: 0.2rem;
+}
+.member .memberDetail .right .ads{
+    font-size: 0.2rem;
+}

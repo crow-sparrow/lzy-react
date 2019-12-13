@@ -1,0 +1,98 @@
+.fix {
+    background-color: white;
+    height: 100vh;
+}
+
+.fix .content {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+    margin-top: 0;
+}
+
+.fix .nav {
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.fix .nav div {
+    width: 33%;
+    text-align: center;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-right: 0.01rem solid rgb(190, 190, 190);
+    position: relative;
+    font-size: 0.2rem;
+    color: #aaa9a4;
+}
+
+.fix .nav .down {
+    font-size: 0.2rem;
+    position: absolute;
+    right: 0.2rem;
+}
+
+.fix .fixStation {
+    height: 1.5rem;
+    border-bottom: 0.01rem solid #cccccc;
+    padding: 0.1rem 0.2rem;
+    position: relative;
+}
+
+.fixStation span {
+    position: absolute;
+}
+
+.fixStation .tel {
+    right: 0.3rem;
+    top: 0.2rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #fbfbfb;
+    color: #fd8a45;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.fixStation .len {
+    right: 0.1rem;
+    bottom: 0.05rem;
+    color: #b7b7b7;
+    width: 1.2rem;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.fixStation .name {
+    color: black;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.fixStation .address {
+    bottom: 0.1rem;
+    left: 0.55rem;
+    color: #acacac;
+}
+.fixStation .pos {
+    bottom: 0.03rem;
+    font-size: 0.35rem;
+    color: #acacac;
+}
+
+.fixStation .type {
+    top: 0.55rem;
+    font-size: 0.12rem;
+    color: #acacac;
+}
+.fixStation .score img{
+    height: 0.3rem;
+    width: 0.3rem;
+}
+.fixStation .score{
+    position: absolute;
+    top: 0.05rem;
+    left: 2rem;
+}

@@ -1,0 +1,18 @@
+.top .search {
+    font-size: 0.65rem !important;
+    color: #cccccc;
+}
+
+.top .am-list-item.am-input-item {
+    width: 4.6rem;
+    border: 0.02rem solid #cccccc;
+    float: left;
+    border-radius: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.top .am-button {
+    height: 0.89rem;
+    width: 2rem;
+    line-height: 0.89rem;
+}

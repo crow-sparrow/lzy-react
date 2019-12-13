@@ -1,0 +1,41 @@
+.clean {
+    background-color: white;
+    height: 100vh;
+}
+
+.clean .content {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+}
+.clean .cleanLogo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+}
+.clean .cleanLogo div{
+    width: 25%;
+    text-align: center;
+}
+.clean .foot{
+    display: flex;
+    justify-content: space-between;
+}
+.clean .foot div{
+    width: 49%;
+    border: 0.01rem solid #cccccc;
+    height: 1.4rem;
+}
+.clean .foot img{
+    float: right;
+    margin-right: 0.01rem;
+    margin-top: 0.1rem;
+}
+.clean .foot span{
+    float: left;
+    width: 45%;
+    margin-top: 0.35rem;
+    margin-left: 0.1rem;
+    font-size: 0.16rem;
+    font-weight: bold;
+}

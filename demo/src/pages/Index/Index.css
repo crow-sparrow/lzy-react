@@ -1,0 +1,114 @@
+.index {
+    height: 100vh;
+    background-color: white;
+}
+
+.index .content {
+    margin-top: 0.2rem;
+    padding: 0 0.2rem;
+}
+
+.index .side {
+    position: absolute;
+    font-size: 0.6rem !important;
+    left: 0.3rem;
+}
+.index .logo {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index .logo .link {
+    display: block;
+    height: 2rem;
+    width: 2.25rem;
+    text-align: center;
+    background-color: white;
+    margin-top: 0.05rem;
+}
+
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    width: 5rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.am-drawer-sidebar {
+    background-color: #007af5 !important;
+}
+
+.am-drawer-sidebar div {
+    background-color: #007af5 !important;
+}
+
+.userInf {
+    height: 1.5rem;
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    box-sizing: border-box;
+}
+
+.userInf img {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+}
+.userInf span{
+    font-size: 0.5rem;
+    color: white;
+    margin-left: 0.3rem;
+}
+.am-drawer-draghandle{
+    width: 0!important;
+}
+.index .list{
+    width: 3.5rem;
+    height: 0.8rem;
+    border:0.02rem solid #cccccc;
+    border-radius: 0.8rem;
+    line-height: 0.8rem;
+    margin: 0.2rem 0.8rem;
+    font-size: 0.35rem;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.index .sideIcon{
+    font-size: 0.4rem;
+    margin-right: 0.2rem;
+}
+.select{
+    background-color: white!important;
+}
+.index .weather{
+    float: left;
+    padding-left: 1.1rem;
+    text-align: left;
+    position: relative;
+}
+.index .weather .weaIcon{
+    font-size: 0.8rem;
+    position: absolute;
+    left: 0.2rem;
+    top: -0.1rem;
+}
+.index .time{
+    float: right;
+    padding-right: 0.3rem;
+}
+.index .scene{
+    height: 1.4rem;
+    padding-top: 0.2rem;
+}
+.index .out{
+    margin-top: 0.9rem!important;
+}

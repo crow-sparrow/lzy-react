@@ -1,0 +1,8 @@
+.register{
+    height: 100vh;
+    background-color: #f0eff5;
+}
+.register .am-button-small{
+    height:0.4rem;
+    line-height: 0.4rem;
+}

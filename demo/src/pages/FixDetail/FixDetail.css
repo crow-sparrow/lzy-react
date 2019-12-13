@@ -1,0 +1,193 @@
+.fixDetail .content {
+    margin: 0px;
+    padding: 0.15rem;
+}
+
+.fixDetail .info {
+    height: 1rem;
+    box-sizing: border-box;
+    padding: 0.1rem;
+    background-color: white;
+    position: relative;
+    line-height: 0.8rem;
+}
+
+.fixDetail .info .fixName {
+    font-weight: bold;
+    font-size: 0.35rem;
+}
+
+.fixDetail .info span {
+    position: absolute;
+}
+
+.fixDetail .likeNum {
+    right: 0.2rem;
+    bottom: 0.1rem;
+}
+
+.fixDetail .readNum {
+    right: 1.5rem;
+    bottom: 0.1rem;
+}
+
+.fixDetail .eye {
+    right: 0.7rem;
+    bottom: 0.07rem;
+}
+
+.fixDetail .like {
+    right: 2rem;
+    bottom: 0.07rem;
+}
+
+.fixDetail .address {
+    height: 2.5rem;
+    margin: 0.1rem 0;
+    background-color: white;
+    padding: 0.1rem;
+    position: relative;
+    font-size: 0.3rem;
+}
+
+.fixDetail .address span {
+    position: absolute;
+}
+
+.fixDetail .address .tel {
+    right: 0.3rem;
+    top: 0.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.8rem;
+    background-color: #fbfbfb;
+    color: #fd8a45;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.fixDetail .address .pos {
+    left: 0.2rem;
+    top: 0.1rem;
+    color: #b2b2b2;
+    font-size: 0.35rem !important;
+}
+
+.fixDetail .address .ads {
+    left: 0.6rem;
+    top: 0.6rem;
+    color: #b2b2b2;
+}
+
+.fixDetail .address .time {
+    left: 0.6rem;
+    top: 1.2rem;
+    color: #b2b2b2;
+}
+
+.fixDetail .address .len {
+    left: 0.6rem;
+    top: 0.1rem;
+    color: #b2b2b2;
+}
+.fixDetail .attention{
+    background-color: green!important;
+    color: white!important;
+    left: 0.3rem;
+}
+.fixDetail .ask{
+    left: 2.3rem;
+}
+.fixDetail .address .am-button-small {
+    width: 1.7rem;
+    position: absolute;
+    bottom: 0.2rem;
+}
+.fixDetail .address .am-button-small span{
+    position: relative;
+}
+.fixDetail .des {
+    height: 3rem;
+    background-color: white;
+    padding: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.fixDetail .des .title {
+    height: 0.6rem;
+    font-weight: bold;
+    font-size: 0.33rem;
+    border-bottom: 0.01rem solid #cccccc;
+}
+
+.fixDetail .des .desText {
+    padding: 0.3rem;
+    color: #9e9e9e;
+}
+
+.fixDetail .remark {
+    background-color: white;
+    padding: 0.1rem;
+}
+
+.fixDetail .remark .title {
+    height: 0.6rem;
+    font-weight: bold;
+    font-size: 0.33rem;
+    border-bottom: 0.01rem solid #cccccc;
+}
+
+.fixDetail .remark .title .write {
+    float: right;
+    font-weight: normal;
+    font-size: 0.2rem;
+    color: #9e9e9e;
+}
+
+.fixDetail .remark .remarks {
+    padding: 0.1rem;
+}
+
+.fixDetail .remark .remarks .remarkContent img {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.fixDetail .remark .remarks .remarkContent {
+    height: 1.4rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 0.01rem solid #cccccc;
+}
+
+.fixDetail .remark .remarks .remarkContent span {
+    position: absolute;
+}
+
+.fixDetail .remark .remarks .remarkContent .name {
+    font-weight: bold;
+    left: 1.3rem;
+    top: 0.2rem;
+}
+
+.fixDetail .remark .remarks .remarkContent .inner {
+    left: 1.3rem;
+    top: 0.7rem;
+    color: #9e9e9e;
+}
+
+.fixDetail .remark .remarks .remarkContent .time {
+    right: 0.3rem;
+    top: 0.3rem;
+    color: #9e9e9e;
+}
+.fixDetail .score img{
+    height: 0.35rem;
+    width: 0.35rem;
+}
+.fixDetail .score{
+    margin-left: 1.6rem;
+}
